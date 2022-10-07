@@ -1,0 +1,76 @@
+---
+title: "Homework 1"
+subtitle: "Introduction to R for Public Health and Biomedical Research"
+author: "Enter your name here"
+date: "Enter the date here"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Part 1: Debugging
+
+Find and correct the 10 mistakes in the code below.
+
+```{r eval = FALSE}
+x -> 10
+y -> 5
+
+x + Y
+
+# vector of numeric values 4, 3.5 and 6
+z <- C(4, 3.5, "6") 
+is.numeric{Z}
+
+w <- 1;7 # vector of whole numbers one to seven
+
+# Character vector of fruits
+Fruits <- c("Banana", "grape", "apple")
+fruits == "banana" # logical, should be true where fruits are "banana"
+
+sample(x = c(0,1), size = 5, replace = true)
+Rnorm(10) # sample of the standard normal distribution of size 10
+```
+
+
+## Part 2: Creation of variables and assignment of values
+
+Create a variable `x` that contains the vector of the numbers 10 to 3. What is the type of `x`?
+
+```{r}
+# Enter code here.
+```
+
+Create a variable `pets` that contains a vector with the values dog, goldfish and cat. 
+
+```{r}
+# Enter code here.
+```
+
+What is the type of `pets`?
+
+```{r}
+# Enter code here.
+```
+
+Draw a sample with replacement of sample size 10 from `pets`. Call your sample `mypets`. Use the seed `123`. Apply the factor function to `mypets` and save the result to `mypets`.
+
+```{r}
+# Enter code here.
+```
+
+Print the summary of `mypets`.
+
+```{r}
+# Enter code here.
+```
+
+
+### Extra Point:
+
+Answer the question: How many cats are included in mypets?
+
+*Write your answer here.*
+

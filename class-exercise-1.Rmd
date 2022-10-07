@@ -1,0 +1,85 @@
+---
+title: "Class Exercise 1"
+author: "Your Name"
+date: "2/13/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Exercise 1
+
+Create a variable `z` and assign it the value 10: 
+
+```{r}
+
+```
+
+Create a vector variable `x` and assign it the vector of numbers from one to ten. 
+
+```{r}
+
+```
+
+Calculate the sum and the mean of `x`.
+
+```{r}
+
+```
+
+Compare the data structure of `x` and `z` using the `str` function on each variable.
+
+```{r}
+
+```
+
+
+## Exercise 2
+
+Use a comparison operator to check whether the sum of the first 10 natural numbers is larger than or equal to 50.
+
+```{r}
+
+```
+
+Use a comparison operator to check whether the sum of the first 100 numbers is larger than or equal to 5000.
+
+```{r}
+
+```
+
+## Exercise 3
+
+1. Create a new variable `fruitbasket` that contains a random sample of size 10 from the vector `fruit` with replacement.
+2. Use a comparison operator to calculate the number of bananas in the fruit basket.
+
+```{r}
+set.seed(123)
+fruit <- c("banana", "peach", "cherry")
+
+# Add code here
+```
+
+
+## Exercise 4
+
+Use a comparison operator to check whether for a random natural number `n`, the sum of the first n is larger than or equal to `n*(n-1)/2`.
+
+```{r}
+
+```
+
+## Exercise 5
+
+Create a random sample from a standard normal distribution of size 100. 
+
+1. What percentage of values is larger than zero?
+2. What percentage of values is smaller than zero?
+3. What percentage of values is larger than the standard deviation of the sample?
+
+```{r}
+
+```
+
