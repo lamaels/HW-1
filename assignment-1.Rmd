@@ -1,8 +1,8 @@
 ---
 title: "Homework 1"
 subtitle: "Introduction to R for Public Health and Biomedical Research"
-author: "Enter your name here"
-date: "Enter the date here"
+author: "Lama Elsharif"
+date: "10/14/2922"
 output: html_document
 ---
 
